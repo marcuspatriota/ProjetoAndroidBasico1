@@ -8,4 +8,8 @@
     <string name="entrar">Entrar</string>
     <string name="descLogin">Digite aqui seu login</string>
     <string name="descSenha">Digite aqui sua senha</string>
+    <string name="confirme_login">Seu login é:</string>
+    <string name="confirme_senha">Sua senha é:</string>
+    <string name="confirme_nome">Seu nome é:</string>
+    <string name="confirme_cpf">Seu cpf é:</string>
 </resources>

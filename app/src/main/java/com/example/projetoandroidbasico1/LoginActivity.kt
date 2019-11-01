@@ -5,10 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
-import org.w3c.dom.Entity
 
-class Main4Activity : AppCompatActivity() {
+class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,7 +14,7 @@ class Main4Activity : AppCompatActivity() {
 
         val buttonEntrar = findViewById<Button>(R.id.activity4_button2)
         buttonEntrar.setOnClickListener {
-            val intent = Intent(this,Main5Activity::class.java)
+            val intent = Intent(this,VisaoLoginActivity::class.java)
             val usuario = findViewById<EditText>(R.id.ativity4_editText1)
             val senha = findViewById<EditText>(R.id.ativity4_editText2)
 

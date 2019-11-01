@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class Main5Activity : AppCompatActivity() {
+class VisaoLoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -12,7 +12,8 @@ class Main5Activity : AppCompatActivity() {
 
         val usuario = findViewById<TextView>(R.id.activity5_text1)
         val senha = findViewById<TextView>(R.id.activity5_text2)
-        usuario.text = "Seu login é: ${intent.getStringExtra("login")}"
-        senha.text = "Sua senha é ${intent.getStringExtra("senha")}"
+
+        usuario.text = "${usuario.text} ${intent.getStringExtra("login")}"
+        senha.text = "${senha.text} ${intent.getStringExtra("senha")}"
     }
 }

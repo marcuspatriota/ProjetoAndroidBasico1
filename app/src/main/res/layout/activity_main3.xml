@@ -8,9 +8,10 @@
         android:id="@+id/ativity3_text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="30sp"
         android:textColor="@color/laranja"
-        android:textSize="35dp">
+        android:textSize="35sp"
+        android:text="@string/confirme_nome">
 
     </TextView>
     <TextView
@@ -18,7 +19,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/laranja"
-        android:textSize="35dp">
+        android:textSize="35sp"
+        android:text="@string/confirme_cpf">
 
     </TextView>
 

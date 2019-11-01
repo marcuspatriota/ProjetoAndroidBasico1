@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-class Main3Activity : AppCompatActivity() {
+class VisaoCadastroActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -12,7 +12,7 @@ class Main3Activity : AppCompatActivity() {
 
         val nome = findViewById<TextView>(R.id.ativity3_text1)
         val cpf = findViewById<TextView>(R.id.ativity3_text2)
-        nome.text = "Seu nome é: ${intent.getStringExtra("nome")}"
-        cpf.text = "Seu cpf é: ${intent.getStringExtra("cpf")}"
+        nome.text = "${nome.text} ${intent.getStringExtra("nome")}"
+        cpf.text = "${cpf.text} ${intent.getStringExtra("cpf")}"
     }
 }

@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MainActivity : AppCompatActivity() {
+class PrincipalActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
 
         val buttonLogin = findViewById<Button>(R.id.activity1_button1)
         buttonLogin.setOnClickListener {
-            val intent = Intent(this,Main4Activity::class.java)
+            val intent = Intent(this,LoginActivity::class.java)
             startActivity(intent)
         }
         val buttonRegistro = findViewById<Button>(R.id.activity1_button2)
         buttonRegistro.setOnClickListener {
-            val intent = Intent(this,Main2Activity::class.java)
+            val intent = Intent(this,CadastroActivity::class.java)
             startActivity(intent)
         }
 
