@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imagem">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/activity1_button1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1E90FF"
+            android:text="@string/login"
+            android:textColor="@color/branco"
+            android:textSize="25dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/activity1_button2"
+            android:layout_width="150dp"
+            android:backgroundTint="#1E90FF"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"
+            android:textSize="25dp"
+            android:text="@string/reg">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

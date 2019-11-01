@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjetoAndroidBasico1</string>
+    <string name="login">Login</string>
+    <string name="reg">Registro</string>
+    <string name="descNome">Digite aqui seu nome</string>
+    <string name="descCPF">Digite aqui seu CPF</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="entrar">Entrar</string>
+    <string name="descLogin">Digite aqui seu login</string>
+    <string name="descSenha">Digite aqui sua senha</string>
+</resources>
